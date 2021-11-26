@@ -21,7 +21,7 @@ exports.handler = async function (event) {
 
       Subject: { Data: event.subject },
     },
-    Source: "abdulla.thanseeh@ccs-technologies.com",
+    Source: "abdulla.thanseeh@mail.com",
   };
  
   return ses.sendEmail(params).promise()
